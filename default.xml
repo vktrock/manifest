@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="origin" fetch=".." revision="master" review="https://codeup.aliyun.com" />
+  <remote  name="github" fetch="https://github.com" revision="master" review="" />
+  <default remote="origin" revision="master" sync-j="4" />
+  
+  <project name="alibaba/git-repo-go" path="git-repo" groups="app">
+    <linkfile src="README.md" dest="README.md"></linkfile>
+  </project>
+  <project name="alibaba/git-repo-go-doc" path="website" groups="app"/>
+  <project name="jiangxin/goconfig" path="lib/goconfig" groups="lib" remote="github" />
+  <project name="jiangxin/multi-log" path="lib/multi-log" groups="lib" remote="github" />
+</manifest>
