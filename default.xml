@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<!-- Remote to pull from with base URL as the fetch value -->
-	<remote name="origin" fetch="https://github.com/vktrock" revision="main"/>
+	<remote fetch="https://github.com/vktrock" name="origin" />
 	
-	<default remote="origin" sync-j="14" sync-c="true" />
+	<default remote="origin" sync-j="4" revision="main" />
 	
 	<!-- "path" is the directory the repository will be downloaded into -->
 	<!-- Using "remote" and "name" resolves to the git repo at git@github.com:garrelj1/ezsetup -->
