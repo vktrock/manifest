@@ -7,7 +7,7 @@
 	
 	<!-- "path" is the directory the repository will be downloaded into -->
 	<!-- Using "remote" and "name" resolves to the git repo at git@github.com:garrelj1/ezsetup -->
-	<project path="myapp" name="Jenkins_Upgradev3" remote="origin">
+	<project path="myapp" name="Jenkins_Upgradev3" revision="main" remote="origin">
 	</project>
 
 </manifest>
