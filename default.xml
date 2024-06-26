@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<!-- Remote to pull from with base URL as the fetch value -->
-	<remote name="origin" fetch="https://github.com" revision="main"/>
+	<remote name="origin" fetch="https://github.com/vktrock" revision="main"/>
 	
 	<default remote="origin" sync-j="14" sync-c="true" />
 	
